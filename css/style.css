@@ -24,7 +24,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background: #1d1d1d;
+    background: #ffffff;
 } 
 
 body.blue{
@@ -139,7 +139,7 @@ a:focus{
 }
 
 .hero{
-    background: url(../img/home.jpg) center center;
+
     background-size: cover;
     display: table;
     width: 100%;
@@ -152,7 +152,7 @@ a:focus{
 /*About Page*/
 
 .hero.about{
-    background: url(../img/about-promo.jpg) center center;
+    /* background: url(../img/about-promo.jpg) center center; */
     background-size: cover;
     display: table;
     width: 100%;
@@ -168,7 +168,7 @@ a:focus{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    
     z-index: 1;
 }
 
@@ -189,12 +189,12 @@ a:focus{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+   
     z-index: 1;
 }
 
 .blue .hero:before {
-    background-color: rgba(15, 29, 66, 0.9);
+    background-color: rgba(248, 248, 248, 0.9);
 }
 
 .hero.contact{
@@ -211,7 +211,7 @@ a:focus{
     position: relative;
     z-index: 4;
     text-align: center;
-    background-color: #2a2a2a;
+    background-color:#DDDDDD;
     display: table-cell;
     vertical-align: middle;
 }
@@ -952,7 +952,8 @@ header{
 .about .image:before{
 content: '';
     width: 100%;
-    background: #2a2a2a;
+    /* background: #2a2a2a; */
+    background-color: #fff;
     width: 93%;
     height: 100%;
     position: absolute;
@@ -1228,7 +1229,7 @@ footer .copyright span{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    /* background-color: rgba(0, 0, 0, 0); */
     z-index: 1;
 }
 
